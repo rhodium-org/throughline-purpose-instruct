@@ -1,0 +1,11 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: "Limit each step to a single action"
+text: "Limit each step to a single action the reader can complete before moving on."
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "TBS Purpose — Instruct — Sequencing"
+  principle: UR-0003

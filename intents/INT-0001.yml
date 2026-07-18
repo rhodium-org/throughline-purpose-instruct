@@ -1,0 +1,8 @@
+uid: INT-0001
+type: intent
+status: approved
+title: "Text enables the reader to complete a task correctly"
+text: "Instructing means guiding the reader through the actions needed to reach a successful outcome. It suits how-to guides, procedures, setup steps and form help, where the reader needs to do rather than merely to know. This axis governs the communicative purpose — task completeness and sequencing — not readability, spelling, punctuation or register, each of which is a separate source. Purpose variants are mutually exclusive: a consumer composes exactly one of the inform, instruct or persuade sibling sources."
+normative: false
+attrs:
+  source_ref: "TBS Purpose — Instruct"

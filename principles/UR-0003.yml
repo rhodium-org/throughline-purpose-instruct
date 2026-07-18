@@ -1,0 +1,10 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: "Sequence the actions the reader must take"
+text: "Give one performable action at a time, in the order to do them."
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "TBS Purpose — Instruct — Sequencing"

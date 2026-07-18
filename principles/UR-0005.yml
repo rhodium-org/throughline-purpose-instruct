@@ -1,0 +1,10 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: "Let the reader confirm success and recover from failure"
+text: "Tell the reader how to check it worked and what to do if it did not."
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "TBS Purpose — Instruct — Verification and recovery"

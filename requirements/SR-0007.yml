@@ -1,0 +1,11 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: "State the condition before the action that depends on it"
+text: "Where a step applies only in some cases, state the condition before the action."
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "TBS Purpose — Instruct — Decisions and branches"
+  principle: UR-0004

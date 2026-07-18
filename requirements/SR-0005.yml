@@ -1,0 +1,11 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: "Give the steps in the exact order to perform them"
+text: "Give the steps in the exact order the reader must perform them."
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "TBS Purpose — Instruct — Sequencing"
+  principle: UR-0003

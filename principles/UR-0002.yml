@@ -1,0 +1,10 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: "State what the reader needs before starting"
+text: "Name the prerequisites so the reader does not stall midway."
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "TBS Purpose — Instruct — Prerequisites"

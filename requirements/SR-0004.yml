@@ -1,0 +1,11 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: "Name the permissions, tools or information required"
+text: "Name any permissions, tools, access or information the task requires."
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "TBS Purpose — Instruct — Prerequisites"
+  principle: UR-0002

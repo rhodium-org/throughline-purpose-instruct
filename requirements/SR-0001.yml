@@ -1,0 +1,11 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: "Open by stating what the reader will have achieved"
+text: "Open by stating what the reader will have achieved when they finish the task."
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "TBS Purpose — Instruct — Outcome and scope"
+  principle: UR-0001

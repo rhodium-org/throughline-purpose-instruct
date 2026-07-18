@@ -1,0 +1,11 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: "State when the procedure applies and when it does not"
+text: "State when the procedure applies and when it does not, before the steps begin."
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "TBS Purpose — Instruct — Outcome and scope"
+  principle: UR-0001

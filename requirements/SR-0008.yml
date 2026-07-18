@@ -1,0 +1,11 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: "Tell the reader how to decide, not just the options"
+text: "For each choice the reader faces, tell them how to decide, not only what the options are."
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "TBS Purpose — Instruct — Decisions and branches"
+  principle: UR-0004
