@@ -1,10 +1,11 @@
 uid: UR-0004
 type: user_requirement
-status: approved
-title: "Guide the reader through decisions and branches"
-text: "Tell the reader how to handle conditions and choices."
+status: proposed
+title: Guide the reader through decisions and branches
+text: Tell the reader how to handle conditions and choices.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "TBS Purpose — Instruct — Decisions and branches"
+  source_ref: TBS Purpose — Instruct — Decisions and branches

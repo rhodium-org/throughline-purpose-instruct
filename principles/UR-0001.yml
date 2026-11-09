@@ -1,10 +1,11 @@
 uid: UR-0001
 type: user_requirement
-status: approved
-title: "Set out the outcome and when the task applies"
-text: "Tell the reader what they will achieve and when to use these instructions."
+status: proposed
+title: Set out the outcome and when the task applies
+text: Tell the reader what they will achieve and when to use these instructions.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "TBS Purpose — Instruct — Outcome and scope"
+  source_ref: TBS Purpose — Instruct — Outcome and scope
