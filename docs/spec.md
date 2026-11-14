@@ -25,7 +25,7 @@ It carries
 ## Purpose
 
 <!-- tl:item INT-0001 -->
-**INT-0001 — Text enables the reader to complete a task correctly** — `intent`, status `approved`
+**INT-0001 — Text enables the reader to complete a task correctly** — `intent`, status `proposed`
 
 > Instructing means guiding the reader through the actions needed to reach a successful outcome. It suits how-to guides, procedures, setup steps and form help, where the reader needs to do rather than merely to know. This axis governs the communicative purpose — task completeness and sequencing — not readability, spelling, punctuation or register, each of which is a separate source. Purpose variants are mutually exclusive: a consumer composes exactly one of the inform, instruct or persuade sibling sources.
 
@@ -35,7 +35,7 @@ It carries
 ## 1. Set out the outcome and when the task applies
 
 <!-- tl:item UR-0001 -->
-**UR-0001 — Set out the outcome and when the task applies** — `user_requirement`, status `approved`
+**UR-0001 — Set out the outcome and when the task applies** — `user_requirement`, status `proposed`
 
 > Tell the reader what they will achieve and when to use these instructions.
 
@@ -47,14 +47,14 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0001' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0001 | system_requirement | approved | Open by stating what the reader will have achieved |
-| SR-0002 | system_requirement | approved | State when the procedure applies and when it does not |
+| SR-0001 | system_requirement | proposed | Open by stating what the reader will have achieved |
+| SR-0002 | system_requirement | proposed | State when the procedure applies and when it does not |
 <!-- tl:end -->
 
 ## 2. State what the reader needs before starting
 
 <!-- tl:item UR-0002 -->
-**UR-0002 — State what the reader needs before starting** — `user_requirement`, status `approved`
+**UR-0002 — State what the reader needs before starting** — `user_requirement`, status `proposed`
 
 > Name the prerequisites so the reader does not stall midway.
 
@@ -66,14 +66,14 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0002' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0003 | system_requirement | approved | List what the reader must have or do before starting |
-| SR-0004 | system_requirement | approved | Name the permissions, tools or information required |
+| SR-0003 | system_requirement | proposed | List what the reader must have or do before starting |
+| SR-0004 | system_requirement | proposed | Name the permissions, tools or information required |
 <!-- tl:end -->
 
 ## 3. Sequence the actions the reader must take
 
 <!-- tl:item UR-0003 -->
-**UR-0003 — Sequence the actions the reader must take** — `user_requirement`, status `approved`
+**UR-0003 — Sequence the actions the reader must take** — `user_requirement`, status `proposed`
 
 > Give one performable action at a time, in the order to do them.
 
@@ -85,14 +85,14 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0003' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0005 | system_requirement | approved | Give the steps in the exact order to perform them |
-| SR-0006 | system_requirement | approved | Limit each step to a single action |
+| SR-0005 | system_requirement | proposed | Give the steps in the exact order to perform them |
+| SR-0006 | system_requirement | proposed | Limit each step to a single action |
 <!-- tl:end -->
 
 ## 4. Guide the reader through decisions and branches
 
 <!-- tl:item UR-0004 -->
-**UR-0004 — Guide the reader through decisions and branches** — `user_requirement`, status `approved`
+**UR-0004 — Guide the reader through decisions and branches** — `user_requirement`, status `proposed`
 
 > Tell the reader how to handle conditions and choices.
 
@@ -104,14 +104,14 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0004' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0007 | system_requirement | approved | State the condition before the action that depends on it |
-| SR-0008 | system_requirement | approved | Tell the reader how to decide, not just the options |
+| SR-0007 | system_requirement | proposed | State the condition before the action that depends on it |
+| SR-0008 | system_requirement | proposed | Tell the reader how to decide, not just the options |
 <!-- tl:end -->
 
 ## 5. Let the reader confirm success and recover from failure
 
 <!-- tl:item UR-0005 -->
-**UR-0005 — Let the reader confirm success and recover from failure** — `user_requirement`, status `approved`
+**UR-0005 — Let the reader confirm success and recover from failure** — `user_requirement`, status `proposed`
 
 > Tell the reader how to check it worked and what to do if it did not.
 
@@ -123,6 +123,6 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0005' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0009 | system_requirement | approved | Tell the reader how to confirm the task succeeded |
-| SR-0010 | system_requirement | approved | State what to do if a step fails |
+| SR-0009 | system_requirement | proposed | Tell the reader how to confirm the task succeeded |
+| SR-0010 | system_requirement | proposed | State what to do if a step fails |
 <!-- tl:end -->
